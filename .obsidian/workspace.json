@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "환영합니다!.md",
+                "file": "Development Culture/Development Environment/BE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "환영합니다!"
+              "title": "BE"
             }
           }
         ]
@@ -176,6 +176,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:빠른 전환기 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
@@ -186,6 +187,9 @@
   },
   "active": "bb79384a96c25015",
   "lastOpenFiles": [
-    "환영합니다!.md"
+    "환영합니다!.md",
+    "Development Culture/Development Environment/BE.md",
+    "Development Culture/Development Environment",
+    "Development Culture"
   ]
 }
