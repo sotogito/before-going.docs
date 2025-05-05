@@ -13,28 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development Culture/Development Environment/BE.md",
+                "file": "Development Culture/?/build.gradle.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BE"
-            }
-          }
-        ]
-      },
-      {
-        "id": "02726efa3f67de62",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "288cbedb9d387bd3",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
+              "title": "build.gradle"
             }
           }
         ]
@@ -187,8 +171,17 @@
   },
   "active": "bb79384a96c25015",
   "lastOpenFiles": [
-    "환영합니다!.md",
+    "Development Culture/Development Environment/?/코드 스타일은 어떻게 적용하는데.md",
+    "Development Culture/Development Environment/?/코드 정적 분석 도구.md",
+    "Development Culture/Development Environment/?/테스트 툴.md",
+    "Development Culture/Development Environment/?/CI CD 파이프라인.md",
+    "Development Culture/Development Environment/?/Swagger.md",
+    "Development Culture/Development Environment/?/workflow 파일 분석.md",
+    "Development Culture/?/build.gradle.md",
     "Development Culture/Development Environment/BE.md",
+    "Development Culture/?",
+    "Development Culture/Development Environment/?",
+    "환영합니다!.md",
     "Development Culture/Development Environment",
     "Development Culture"
   ]
