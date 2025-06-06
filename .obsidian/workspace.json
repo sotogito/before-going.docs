@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JPA 설계/알림/1. User, Card의 id(PK)를 갖는 테이블을 따로 생성.md",
+                "file": "JPA 설계/알림/Card-Alarm의 구현에서 고려해야할 점.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. User, Card의 id(PK)를 갖는 테이블을 따로 생성"
+              "title": "Card-Alarm의 구현에서 고려해야할 점"
             }
           },
           {
@@ -185,14 +185,14 @@
   },
   "active": "bb79384a96c25015",
   "lastOpenFiles": [
+    "JPA 설계/알림/알림의 종류.md",
+    "JPA 설계/알림/나가기전에게 알림이란.md",
+    "JPA 설계/알림/1. User, Card의 id(PK)를 갖는 테이블을 따로 생성.md",
     "JPA 설계/알림/5. (유력) 상속 관계 매핑 - JOINED.md",
     "JPA 설계/알림/4. 상속 관계 매핑 - SINGLE_TABLE.md",
     "JPA 설계/알림/3. 상속 - 알림을 추상 클래스로.md",
     "JPA 설계/알림/2. 상속 - 카드를 추상 클래스로.md",
-    "JPA 설계/알림/1. User, Card의 id(PK)를 갖는 테이블을 따로 생성.md",
     "JPA 설계/알림/Card-Alarm의 구현에서 고려해야할 점.md",
-    "JPA 설계/알림/알림의 종류.md",
-    "JPA 설계/알림/나가기전에게 알림이란.md",
     "API/api.md",
     "JPA 설계/알림",
     "JPA 설계",
