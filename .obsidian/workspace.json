@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "미팅/2025-05-12.md",
+                "file": "JPA 설계/알림/알림의 종류.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-05-12"
+              "title": "알림의 종류"
+            }
+          },
+          {
+            "id": "d7fa64f91232ec99",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기상 api 프론트엔드 vs 백엔드 구현 논의.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "기상 api 프론트엔드 vs 백엔드 구현 논의"
             }
           }
         ]
@@ -169,11 +183,19 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "1423859135b29cd0",
+  "active": "bb79384a96c25015",
   "lastOpenFiles": [
+    "JPA 설계/알림/나가기전에게 알림이란.md",
+    "JPA 설계/알림/알림의 종류.md",
+    "API/api.md",
+    "JPA 설계/알림",
+    "JPA 설계",
+    "API/참고자료.md",
+    "기상 api 프론트엔드 vs 백엔드 구현 논의.md",
+    "미팅/2025-05-12.md",
+    "API",
     "미팅/2025-05-12",
     "미팅/무제.md",
-    "미팅/2025-05-12.md",
     "Development Culture/Git$Github Convention/?/Github CLI.md",
     "회의/무제",
     "미팅",
@@ -194,18 +216,10 @@
     "Development Culture/Code Convention/Java.md",
     "Development Culture/Git$Github Convention",
     "Development Culture/Development Environment/FE.md",
-    "Development Culture/Code Convention",
     "Development Culture/Development Environment/BE.md",
     "Development Culture/Development Environment/?/CI CD 파이프라인.md",
     "Development Culture/Development Environment/?/Swagger.md",
     "Development Culture/Development Environment/?/workflow 파일 분석.md",
-    "Development Culture/?/build.gradle.md",
-    "Development Culture/Development Environment/?/코드 정적 분석 도구.md",
-    "Development Culture/Development Environment/?/코드 스타일은 어떻게 적용하는데.md",
-    "Development Culture/Development Environment/?/테스트 툴.md",
-    "Development Culture/?",
-    "Development Culture/Development Environment/?",
-    "환영합니다!.md",
-    "Development Culture/Development Environment"
+    "Development Culture/?/build.gradle.md"
   ]
 }
