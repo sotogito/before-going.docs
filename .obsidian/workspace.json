@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "도메인 설계/클래스나 함수의 이름을 짓기가 어렵다.md",
+                "file": "도메인 설계/은총알은 없다.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "클래스나 함수의 이름을 짓기가 어렵다"
+              "title": "은총알은 없다"
             }
           },
           {
@@ -185,7 +185,11 @@
   },
   "active": "bb79384a96c25015",
   "lastOpenFiles": [
+    "도메인 설계/분리 - 외부 세계와 단절.md",
+    "도메인 설계/은총알은 없다.md",
+    "도메인 설계/경계를 나누는 기준을 정하라.md",
     "도메인 설계/완벽한 설계.md",
+    "도메인 설계/비지니스 도메인.md",
     "도메인 설계/클래스나 함수의 이름을 짓기가 어렵다.md",
     "도메인 설계/📎.md",
     "도메인 설계/Getter, Setter 지양.md",
@@ -210,14 +214,10 @@
     "JPA 설계",
     "API/참고자료.md",
     "기상 api 프론트엔드 vs 백엔드 구현 논의.md",
-    "미팅/2025-05-12.md",
     "API",
     "미팅/2025-05-12",
-    "미팅/무제.md",
-    "Development Culture/Git$Github Convention/?/Github CLI.md",
     "회의/무제",
     "미팅",
-    "Development Culture/Development Environment/+/테스트 툴.md",
     "Development Culture/Development Environment/+",
     "Development Culture/+",
     "Development Culture/Git$Github Convention/?"
