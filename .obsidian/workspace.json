@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JPA 설계/알림/Card-Alarm의 구현에서 고려해야할 점.md",
+                "file": "JPA 설계/알림/2. 상속 - 카드를 추상 클래스로.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Card-Alarm의 구현에서 고려해야할 점"
+              "title": "2. 상속 - 카드를 추상 클래스로"
             }
           },
           {
@@ -185,14 +185,18 @@
   },
   "active": "bb79384a96c25015",
   "lastOpenFiles": [
-    "JPA 설계/알림/알림의 종류.md",
+    "JPA 설계/알림/1. 카드와 알림의 id(PK)를 갖는 테이블을 따로 생성.md",
+    "JPA 설계/알림/🔺 ⁇.md",
+    "JPA 설계/알림/SINGLE_TABLE 상속 매핑과 단일 엔티티 설계의 다른점은 뭘까.md",
     "JPA 설계/알림/나가기전에게 알림이란.md",
-    "JPA 설계/알림/1. User, Card의 id(PK)를 갖는 테이블을 따로 생성.md",
-    "JPA 설계/알림/5. (유력) 상속 관계 매핑 - JOINED.md",
-    "JPA 설계/알림/4. 상속 관계 매핑 - SINGLE_TABLE.md",
-    "JPA 설계/알림/3. 상속 - 알림을 추상 클래스로.md",
+    "JPA 설계/알림/4. 🔺 상속 관계 매핑 - SINGLE_TABLE.md",
+    "JPA 설계/알림/6. 🔺 상속X 단일 엔티티O - 알림 하나의 테이블로.md",
+    "JPA 설계/알림/5. 🔺 상속 관계 매핑 - JOINED.md",
     "JPA 설계/알림/2. 상속 - 카드를 추상 클래스로.md",
+    "JPA 설계/알림/1. 알림을 인테페이스로?.md",
     "JPA 설계/알림/Card-Alarm의 구현에서 고려해야할 점.md",
+    "JPA 설계/알림/알림의 종류.md",
+    "JPA 설계/알림/3. 상속 - 알림을 추상 클래스로.md",
     "API/api.md",
     "JPA 설계/알림",
     "JPA 설계",
@@ -215,11 +219,7 @@
     "Development Culture/+/build.gradle.md",
     "Development Culture/+",
     "2025-05-08.md",
-    "Development Culture/Git$Github Convention/컨벤션.md",
-    "Development Culture/Git$Github Convention/커멧 메시지 이모지.md",
     "Development Culture/Git$Github Convention/?",
-    "Development Culture/Git$Github Convention/커밋 메시지.md",
-    "Development Culture/Code Convention/Java.md",
     "Development Culture/Git$Github Convention"
   ]
 }
