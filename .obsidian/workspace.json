@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JPA 설계/알림/Card-Alarm의 구현에서 고려해야할 점.md",
+                "file": "도메인 설계/클래스나 함수의 이름을 짓기가 어렵다.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Card-Alarm의 구현에서 고려해야할 점"
+              "title": "클래스나 함수의 이름을 짓기가 어렵다"
             }
           },
           {
@@ -185,6 +185,15 @@
   },
   "active": "bb79384a96c25015",
   "lastOpenFiles": [
+    "도메인 설계/완벽한 설계.md",
+    "도메인 설계/클래스나 함수의 이름을 짓기가 어렵다.md",
+    "도메인 설계/📎.md",
+    "도메인 설계/Getter, Setter 지양.md",
+    "Development Culture/Git$Github Convention/컨벤션.md",
+    "Development Culture/Git$Github Convention/커멧 메시지 이모지.md",
+    "Development Culture/Development Environment/BE.md",
+    "JPA 설계/알림/Card-Alarm의 구현에서 고려해야할 점.md",
+    "도메인 설계",
     "JPA 설계/알림/알림의 종류.md",
     "JPA 설계/알림/나가기전에게 알림이란.md",
     "JPA 설계/알림/6. 🔺 상속X 단일 엔티티O - 알림 하나의 테이블로.md",
@@ -196,7 +205,6 @@
     "JPA 설계/알림/1. 알림을 인테페이스로?.md",
     "JPA 설계/알림/🔺 ⁇ 카드-알림 설계 결정.md",
     "JPA 설계/알림/SINGLE_TABLE 상속 매핑과 단일 엔티티 설계의 다른점은 뭘까.md",
-    "JPA 설계/알림/Card-Alarm의 구현에서 고려해야할 점.md",
     "API/api.md",
     "JPA 설계/알림",
     "JPA 설계",
@@ -210,16 +218,8 @@
     "회의/무제",
     "미팅",
     "Development Culture/Development Environment/+/테스트 툴.md",
-    "Development Culture/Development Environment/+/코드 정적 분석 도구.md",
-    "Development Culture/Development Environment/+/코드 스타일은 어떻게 적용하는데.md",
-    "Development Culture/Development Environment/+/workflow 파일 분석.md",
-    "Development Culture/Development Environment/+/Swagger.md",
-    "Development Culture/Development Environment/+/CI CD 파이프라인.md",
     "Development Culture/Development Environment/+",
-    "Development Culture/+/build.gradle.md",
     "Development Culture/+",
-    "2025-05-08.md",
-    "Development Culture/Git$Github Convention/?",
-    "Development Culture/Git$Github Convention"
+    "Development Culture/Git$Github Convention/?"
   ]
 }
