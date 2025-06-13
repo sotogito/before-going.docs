@@ -23,7 +23,7 @@ public class Card extends BaseTimeEntity{
     @JoinColumn(name = "notification_id", nullable = false)
     private Notification notification;
 
-    @OneToMany(mappedBy = "card", fetch = FetchType.EAGER)
+    @OneToMany(mappedBy = "card", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     private List<CheckList> checkList;
 
     @Column(name = "used_date", nullable = false)
