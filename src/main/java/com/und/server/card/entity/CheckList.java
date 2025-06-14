@@ -1,7 +1,13 @@
-package com.und.server.entity;
+package com.und.server.card.entity;
 
-import com.und.server.constants.CheckListType;
+import com.und.server.card.CheckListType;
 import jakarta.persistence.*;
+import lombok.*;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Builder
 
 @Entity
 @Table(name = "tbl_checklist")
@@ -12,6 +18,7 @@ public class CheckList {
     @Column(name = "checklist_id", nullable = false)
     private Long id;
 
+    @Setter(AccessLevel.PROTECTED)
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "card_id", nullable = false)
     private Card card;
@@ -22,7 +29,8 @@ public class CheckList {
     @Enumerated(EnumType.STRING)
     private CheckListType checkListType;
 
+    @Setter
     @Column(name = "is_active", nullable = false)
-    private boolean isActive; //fixme 상수로?
+    private boolean isActive = false;
 
 }

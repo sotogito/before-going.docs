@@ -1,4 +1,4 @@
-package com.und.server.constants;
+package com.und.server.card;
 
 public enum CheckListType {
 
