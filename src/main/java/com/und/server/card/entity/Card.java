@@ -38,7 +38,8 @@ public class Card extends BaseTimeEntity {
     @JoinColumn(name = "notification_id", nullable = false)
     private Notification notification;
 
-    @OneToMany(mappedBy = "card", fetch = FetchType.LAZY, cascade = CascadeType.ALL) //todo
+    @OneToMany(mappedBy = "card", fetch = FetchType.LAZY,
+            cascade = CascadeType.ALL, orphanRemoval = true)
     private List<CheckList> checkList = new ArrayList<>();
 
     @Column(name = "used_date", nullable = true)
