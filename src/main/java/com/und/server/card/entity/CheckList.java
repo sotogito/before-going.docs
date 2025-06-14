@@ -33,4 +33,13 @@ public class CheckList {
     @Column(name = "is_active", nullable = false)
     private boolean isActive = false;
 
+
+    public CheckList clone() { //clonefactory에 static으로 놔도 ㄱㅊ
+        return CheckList.builder()
+                .content(content)
+                .checkListType(checkListType)
+                .isActive(isActive)
+                .build();
+    }
+
 }

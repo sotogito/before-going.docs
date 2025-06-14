@@ -1,7 +1,9 @@
 package com.und.server.backup.service;
 
-public interface CardDailyBackupService {
+public interface DailyCardService {
 
     void dailyBackup();
+
+    void defineTodayCard();
 
 }

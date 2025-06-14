@@ -2,6 +2,9 @@ package com.und.server.member;
 
 import com.und.server.common.BaseTimeEntity;
 import jakarta.persistence.*;
+import lombok.Getter;
+
+@Getter
 
 @Entity
 @Table(name = "tbl_member")

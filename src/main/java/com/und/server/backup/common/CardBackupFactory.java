@@ -21,7 +21,7 @@ public class CardBackupFactory {
 
     public Card clone(Card original, LocalDate date) { ///FETCH로 받아와야할듯
         Card cloneCard = Card.builder()
-                .user(original.getUser())
+                .member(original.getMember())
                 .notification(original.getNotification())
                 .backupDate(date) //백업시에는 null -> 백업 날짜
                 .build();
