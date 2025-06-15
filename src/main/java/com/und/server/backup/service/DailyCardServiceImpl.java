@@ -30,7 +30,7 @@ public class DailyCardServiceImpl implements DailyCardService {
     }
 
     @Override
-//    @Transactional -> 회원별로 트랜젝션 처리 고려 Spring Batch???
+//    @Transactional -> 회원별로 트랜젝션 처리 고려 Spring Batch??? +_ 페이징처리
     /**
      * 이렇게 모든 사용자의 모든 카드를 한버에 가져와서 처리하는 게 맞는가?:
      * 그리고 이 설계에 트렌젝션을 주는게 맞나?
