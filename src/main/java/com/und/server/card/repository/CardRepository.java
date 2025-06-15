@@ -6,6 +6,7 @@ import org.springframework.data.jpa.repository.Query;
 
 import java.time.LocalDate;
 import java.util.List;
+import java.util.Optional;
 
 public interface CardRepository extends JpaRepository<Card, Long> {
 
@@ -28,5 +29,6 @@ public interface CardRepository extends JpaRepository<Card, Long> {
             """)
     List<Card> findAllByBackupDate(LocalDate backupDate);
 
-    Card findByMemberIdAndCardIdAndBackupDate(Long memberId, Long cardId, LocalDate today);
+    Optional<Card> findByMemberIdAndCardNameAndBackupDateIsNull(Long memberId, String cardName);
+
 }

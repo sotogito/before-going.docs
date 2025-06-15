@@ -19,7 +19,14 @@ import java.util.List;
 @Builder
 
 @Entity
-@Table(name = "tbl_card")
+@Table(name = "tbl_card",
+        uniqueConstraints = {
+                @UniqueConstraint(
+                        name = "uk_member_cardName_backupDate",
+                        columnNames = {"member_id", "card_name", "backup_date"}
+                )
+        }
+)
 public class Card extends BaseTimeEntity {
 
     @Id
@@ -35,23 +42,33 @@ public class Card extends BaseTimeEntity {
     private String cardName;
 
     @OneToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "notification_id", nullable = false)
+    @JoinColumn(name = "notification_id")
     private Notification notification;
 
     @OneToMany(mappedBy = "card", fetch = FetchType.LAZY,
             cascade = CascadeType.ALL, orphanRemoval = true)
     private List<CheckList> checkList = new ArrayList<>();
 
-    @Column(name = "used_date", nullable = true)
+    @Column(name = "backup_date")
     private LocalDate backupDate;
-
-//    @Column(name = "is_use", nullable = false)
-//    private Boolean isUse; //기간이 지난 카드를 삭제하지 않을거면 둬야할듯
 
 
     public void addCheckList(CheckList checkList) {
         this.checkList.add(checkList);
         checkList.setCard(this);
+    }
+
+    public Card deppClone(LocalDate backupDate) {
+        Card cloneCard = Card.builder()
+                .member(this.member)
+                .cardName(this.cardName)
+                .backupDate(backupDate)
+                .build();
+        this.checkList.stream()
+                .map(CheckList::deepClone)
+                .forEach(cloneCard::addCheckList);
+
+        return cloneCard;
     }
 
 }

@@ -19,25 +19,8 @@ public class CardBackupFactory {
         return clone(card, LocalDate.now().minusDays(1));
     }
 
-    public Card clone(Card original, LocalDate date) { ///FETCH로 받아와야할듯
-        Card cloneCard = Card.builder()
-                .member(original.getMember())
-                .notification(original.getNotification())
-                .backupDate(date) //백업시에는 null -> 백업 날짜
-                .build();
-
-        List<CheckList> cloneCheckLists = original.getCheckList().stream()
-                .map(checkList -> CheckList.builder()
-//                        .card(cloneCard) -> cloneCard.addCheckList()에서 처리하고있음
-                                .content(checkList.getContent())
-                                .checkListType(checkList.getCheckListType())
-                                .isActive(checkList.isActive())
-                                .build()
-                ).toList();
-
-        cloneCheckLists.stream().forEach(checkList -> cloneCard.addCheckList(checkList));
-
-        return cloneCard;
+    public Card clone(Card original, LocalDate backupDate) {
+        return original.deppClone(backupDate);
     }
 
 

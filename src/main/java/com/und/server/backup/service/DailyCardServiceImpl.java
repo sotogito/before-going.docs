@@ -25,40 +25,34 @@ public class DailyCardServiceImpl implements DailyCardService {
 
         for (Card card : cardList) {
             Card cardForBackup = cardBackupFactory.backupToYesterday(card);
-            cardRepository.save(cardForBackup); //영속성 전이 설정으로 checklist는 save 안해도 됨
+            cardRepository.save(cardForBackup);
         }
     }
 
     @Override
+//    @Transactional -> 회원별로 트랜젝션 처리 고려 Spring Batch???
+    /**
+     * 이렇게 모든 사용자의 모든 카드를 한버에 가져와서 처리하는 게 맞는가?:
+     * 그리고 이 설계에 트렌젝션을 주는게 맞나?
+     * 일단 회원을 가져오고 회원의 오늘 카드를 가져오고 거기에 트렌젝션을?
+     */
     public void defineTodayCard() {
-        /**
-         * 오늘 날짜로 된 데이터가 있는 카드를가져와서
-         * 만약 있으면 해당 카드의
-         * 1. member
-         * 2. card
-         * 와 같은
-         * 3. backupDate가 null
-         * 인 카드를 가져와서
-         * 미래 추가된 체크리스트를 추가
-         */
         LocalDate today = LocalDate.now();
         List<Card> cardForAddCheckList = cardRepository.findAllByBackupDate(today);
 
         for (Card card : cardForAddCheckList) {
-            List<CheckList> checkListToAdd = card.getCheckList().stream() ///복사하는 로ㅓ직은 중복되는 경우가 많기 때문에 엔티티 내부에 작성
-                    .map(checkList -> CheckList.builder()
-                            .content(checkList.getContent())
-                            .checkListType(checkList.getCheckListType())
-                            .isActive(checkList.isActive())
-                            .build()
-                    ).toList();
-            Card todayCard = cardRepository.findByMemberIdAndCardIdAndBackupDate(
-                    card.getId(),
-                    card.getMember().getId(),
-                    LocalDate.now()
-            );
+            List<CheckList> checkListForAdd = card.getCheckList().stream()
+                    .map(CheckList::deepClone)
+                    .toList();
 
-            checkListToAdd.forEach(newCheckList -> todayCard.addCheckList(newCheckList));
+            Card todayCard = cardRepository.findByMemberIdAndCardNameAndBackupDateIsNull(
+                    card.getMember().getId(),
+                    card.getCardName()
+            ).orElseThrow(IllegalArgumentException::new);
+
+            checkListForAdd.forEach(todayCard::addCheckList);
+
+            cardRepository.save(todayCard);
             cardRepository.delete(card);
         }
     }

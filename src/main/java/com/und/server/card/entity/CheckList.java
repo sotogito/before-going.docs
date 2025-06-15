@@ -34,11 +34,11 @@ public class CheckList {
     private boolean isActive = false;
 
 
-    public CheckList clone() { //clonefactory에 static으로 놔도 ㄱㅊ
+    public CheckList deepClone() {
         return CheckList.builder()
-                .content(content)
-                .checkListType(checkListType)
-                .isActive(isActive)
+                .content(this.content)
+                .checkListType(this.checkListType)
+                .isActive(this.isActive)
                 .build();
     }
 
