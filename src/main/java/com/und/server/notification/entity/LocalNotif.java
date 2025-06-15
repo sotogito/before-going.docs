@@ -20,10 +20,10 @@ public class LocalNotif extends Notification {
 
     private final static double DEFAULT_TRIGGER_RADIUS_KM = 5.0;
 
-    @Column(name = "location_name")
+    @Column(name = "location_name", nullable = false, length = 20)
     private String locationName;
 
-    @Column(name = "location", nullable = false)
+    @Column(name = "location", nullable = false, length = 200)
     private String location;
 
 

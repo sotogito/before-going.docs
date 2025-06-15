@@ -11,10 +11,10 @@ import lombok.Getter;
 public class Member extends BaseTimeEntity {
 
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "user_id", nullable = false)
+    @Column(name = "member_id", nullable = false)
     private Long id;
 
-    @Column(name = "user_nickname", nullable = false, length = 20)
+    @Column(name = "nickname", nullable = false, length = 20)
     private String nickname;
 
     @Column(name = "kakao_id", nullable = false)

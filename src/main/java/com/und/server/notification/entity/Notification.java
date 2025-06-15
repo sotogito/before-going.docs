@@ -7,7 +7,7 @@ import jakarta.persistence.*;
 @Entity
 @Table(name = "tbl_notification")
 @Inheritance(strategy = InheritanceType.JOINED)
-@DiscriminatorColumn(name = "notification_type")
+@DiscriminatorColumn(name = "notif_type")
 public abstract class Notification extends BaseTimeEntity {
 
     @Id

@@ -27,18 +27,19 @@ public class CheckList {
     private String content;
 
     @Enumerated(EnumType.STRING)
+    @Column(name = "checklist_type", nullable = false)
     private CheckListType checkListType;
 
     @Setter
-    @Column(name = "is_active", nullable = false)
-    private boolean isActive = false;
+    @Column(name = "is_checked", nullable = false)
+    private boolean isChecked = false;
 
 
     public CheckList deepClone() {
         return CheckList.builder()
                 .content(this.content)
                 .checkListType(this.checkListType)
-                .isActive(this.isActive)
+                .isChecked(this.isChecked)
                 .build();
     }
 
