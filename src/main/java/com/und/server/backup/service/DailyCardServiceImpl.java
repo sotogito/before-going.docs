@@ -35,6 +35,10 @@ public class DailyCardServiceImpl implements DailyCardService {
      * 이렇게 모든 사용자의 모든 카드를 한버에 가져와서 처리하는 게 맞는가?:
      * 그리고 이 설계에 트렌젝션을 주는게 맞나?
      * 일단 회원을 가져오고 회원의 오늘 카드를 가져오고 거기에 트렌젝션을?
+     * 그넫 만약 사용자 100만명중 미래카드가 있는 회원이 1명이라면 100만명 다 가져와야하나>?
+     * 미래 카드를 가져와서 적용하는게 맞느거같기도 하고
+     *
+     * 아니면 오늘 처리할 카드가 있는 회원id 리스트를 받아오나
      */
     public void defineTodayCard() {
         LocalDate today = LocalDate.now();
