@@ -93,7 +93,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "파일 탐색기"
+              "title": "Files"
             }
           },
           {
@@ -209,13 +209,12 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
-      "switcher:빠른 전환기 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 일일 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
   "active": "f010189c280e484c",
