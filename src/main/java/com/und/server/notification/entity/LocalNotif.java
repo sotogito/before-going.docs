@@ -9,6 +9,8 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.NoArgsConstructor;
 
+import java.math.BigDecimal;
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
@@ -23,9 +25,17 @@ public class LocalNotif extends Notification {
     @Column(name = "location_name", nullable = false, length = 20)
     private String locationName;
 
-    @Column(name = "location", nullable = false, length = 200)
-    private String location;
+    @Column(name = "address", nullable = false, length = 200)
+    private String address;
 
+    @Column(name = "latitude", nullable = false, precision = 10, scale = 7)
+    private BigDecimal latitude;
+
+    @Column(name = "longitude", nullable = false, precision = 10, scale = 7)
+    private BigDecimal longitude;
+
+    @Column(name = "radius", nullable = false, precision = 10, scale = 2)
+    private BigDecimal radius;
 
     @Override
     public NotificationType getType() {
