@@ -41,36 +41,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Card 유니크 제약 조건.md",
+                "file": "JPA 설계/알림/나가기전에게 알림이란.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Card 유니크 제약 조건"
+              "title": "나가기전에게 알림이란"
             }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "5dfaa5179e212d2a",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "d7fa64f91232ec99",
+            "id": "7e0267eaa16bfec0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JPA 설계/알림/4. 🔺 상속 관계 매핑 - SINGLE_TABLE.md",
+                "file": "JPA 설계/알림/backupDate, useDate.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. 🔺 상속 관계 매핑 - SINGLE_TABLE"
+              "title": "backupDate, useDate"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -93,7 +87,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "파일 탐색기"
             }
           },
           {
@@ -209,21 +203,28 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "obsidian-git:Open Git source control": false,
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "f010189c280e484c",
+  "active": "7e0267eaa16bfec0",
   "lastOpenFiles": [
-    "날짜 백업.md",
+    "JPA 설계/알림/나가기전에게 알림이란.md",
+    "JPA 설계/알림/backupDate, useDate.md",
+    "JPA 설계/알림/알림의 종류.md",
+    "JPA 설계/알림/Boolaen타입으로의 저장.md",
+    "JPA 설계/알림/Card-Alarm의 구현에서 고려해야할 점.md",
+    "JPA 설계/알림/SINGLE_TABLE 상속 매핑과 단일 엔티티 설계의 다른점은 뭘까.md",
     "Card 유니크 제약 조건.md",
+    "날짜 백업.md",
     "기상 api 프론트엔드 vs 백엔드 구현 논의.md",
     "JPA 설계/알림/5. 🔺 상속 관계 매핑 - JOINED.md",
-    "JPA 설계/알림/Boolaen타입으로의 저장.md",
     "미팅/2025-06-08.md",
     "미팅/2025-05-12.md",
     "미팅/무제.md",
@@ -240,12 +241,7 @@
     "Development Culture/Git$Github Convention/컨벤션.md",
     "Development Culture/Git$Github Convention/커멧 메시지 이모지.md",
     "Development Culture/Development Environment/BE.md",
-    "JPA 설계/알림/Card-Alarm의 구현에서 고려해야할 점.md",
     "도메인 설계",
-    "JPA 설계/알림/알림의 종류.md",
-    "JPA 설계/알림/나가기전에게 알림이란.md",
-    "JPA 설계/알림/3. 상속 - 알림을 추상 클래스로.md",
-    "JPA 설계/알림/2. 상속 - 카드를 추상 클래스로.md",
     "JPA 설계/알림",
     "JPA 설계",
     "API",
