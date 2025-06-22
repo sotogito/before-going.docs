@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JPA 설계/알림/backupDate, useDate.md",
+                "file": "API/api.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "backupDate, useDate"
+              "title": "api"
             }
           }
         ],
@@ -214,15 +214,20 @@
   },
   "active": "7e0267eaa16bfec0",
   "lastOpenFiles": [
-    "JPA 설계/알림/나가기전에게 알림이란.md",
+    "API/getVilageFcst(단기예보) 제공 주요 항목.md",
+    "Diagram",
+    "무제",
+    "API/기상 api 프론트엔드 vs 백엔드 구현 논의.md",
+    "카드 백업/날짜 백업.md",
+    "카드 백업/날짜 백업- 카드 중심에서 페크리스트 중심으로.md",
+    "카드 백업",
+    "카드 백업/Card 유니크 제약 조건.md",
     "JPA 설계/알림/backupDate, useDate.md",
+    "JPA 설계/알림/나가기전에게 알림이란.md",
     "JPA 설계/알림/알림의 종류.md",
     "JPA 설계/알림/Boolaen타입으로의 저장.md",
     "JPA 설계/알림/Card-Alarm의 구현에서 고려해야할 점.md",
     "JPA 설계/알림/SINGLE_TABLE 상속 매핑과 단일 엔티티 설계의 다른점은 뭘까.md",
-    "Card 유니크 제약 조건.md",
-    "날짜 백업.md",
-    "기상 api 프론트엔드 vs 백엔드 구현 논의.md",
     "JPA 설계/알림/5. 🔺 상속 관계 매핑 - JOINED.md",
     "미팅/2025-06-08.md",
     "미팅/2025-05-12.md",
@@ -238,17 +243,12 @@
     "도메인 설계/📎.md",
     "도메인 설계/Getter, Setter 지양.md",
     "Development Culture/Git$Github Convention/컨벤션.md",
-    "Development Culture/Git$Github Convention/커멧 메시지 이모지.md",
-    "Development Culture/Development Environment/BE.md",
     "도메인 설계",
     "JPA 설계/알림",
     "JPA 설계",
     "API",
     "미팅/2025-05-12",
     "회의/무제",
-    "미팅",
-    "Development Culture/Development Environment/+",
-    "Development Culture/+",
-    "Development Culture/Git$Github Convention/?"
+    "미팅"
   ]
 }
