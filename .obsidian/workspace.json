@@ -53,14 +53,12 @@
             "id": "7e0267eaa16bfec0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "API/api.md",
-                "mode": "source",
-                "source": false
+                "file": "Diagram/Architecture Diagram/infra.drawio.png"
               },
-              "icon": "lucide-file",
-              "title": "api"
+              "icon": "lucide-image",
+              "title": "infra.drawio"
             }
           }
         ],
@@ -214,10 +212,21 @@
   },
   "active": "7e0267eaa16bfec0",
   "lastOpenFiles": [
-    "API/getVilageFcst(단기예보) 제공 주요 항목.md",
+    "Diagram/Architecture Diagram/CICD.drawio.png",
+    "Diagram/Architecture Diagram/infra.drawio.png",
+    "Diagram/CICD.drawio.png",
+    "CICD.drawio.png",
+    "Diagram/Sequence Diagram/Login API process.drawio.png",
+    "Diagram/Architecture Diagram",
+    "Diagram/Sequence Diagram/Kakao login process.drawio.png",
+    "API/날씨/참고자료.md",
+    "Diagram/Sequence Diagram",
+    "API/날씨/0. 사용 api.md",
+    "API/날씨",
+    "API/날씨/getVilageFcst(단기예보) 제공 주요 항목.md",
     "Diagram",
     "무제",
-    "API/기상 api 프론트엔드 vs 백엔드 구현 논의.md",
+    "API/날씨/기상 api 프론트엔드 vs 백엔드 구현 논의.md",
     "카드 백업/날짜 백업.md",
     "카드 백업/날짜 백업- 카드 중심에서 페크리스트 중심으로.md",
     "카드 백업",
@@ -240,15 +249,9 @@
     "도메인 설계/완벽한 설계.md",
     "도메인 설계/비지니스 도메인.md",
     "도메인 설계/클래스나 함수의 이름을 짓기가 어렵다.md",
-    "도메인 설계/📎.md",
-    "도메인 설계/Getter, Setter 지양.md",
-    "Development Culture/Git$Github Convention/컨벤션.md",
     "도메인 설계",
     "JPA 설계/알림",
     "JPA 설계",
-    "API",
-    "미팅/2025-05-12",
-    "회의/무제",
-    "미팅"
+    "API"
   ]
 }
