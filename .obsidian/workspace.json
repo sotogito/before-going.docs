@@ -53,12 +53,14 @@
             "id": "7e0267eaa16bfec0",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Diagram/Architecture Diagram/infra.drawio.png"
+                "file": "Redis/Elasticsearch.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "infra.drawio"
+              "icon": "lucide-file",
+              "title": "Elasticsearch"
             }
           }
         ],
@@ -212,8 +214,17 @@
   },
   "active": "7e0267eaa16bfec0",
   "lastOpenFiles": [
-    "Diagram/Architecture Diagram/CICD.drawio.png",
+    "Redis/0. Redis.md",
+    "Redis/Elasticsearch.md",
+    "API/날씨/로컬캐시와 서버캐시.md",
+    "API/날씨/서버 캐시로 nx,ny에 따른 기상 결과 조회.md",
+    "API/날씨/1. 방법.md",
+    "API/날씨/getVilageFcst(단기예보) 제공 주요 항목.md",
+    "Redis",
+    "API/OpenFeign/0. OpenFeign.md",
     "Diagram/Architecture Diagram/infra.drawio.png",
+    "API/OpenFeign",
+    "Diagram/Architecture Diagram/CICD.drawio.png",
     "Diagram/CICD.drawio.png",
     "CICD.drawio.png",
     "Diagram/Sequence Diagram/Login API process.drawio.png",
@@ -223,7 +234,6 @@
     "Diagram/Sequence Diagram",
     "API/날씨/0. 사용 api.md",
     "API/날씨",
-    "API/날씨/getVilageFcst(단기예보) 제공 주요 항목.md",
     "Diagram",
     "무제",
     "API/날씨/기상 api 프론트엔드 vs 백엔드 구현 논의.md",
@@ -244,14 +254,7 @@
     "JPA 설계/알림/4. 🔺 상속 관계 매핑 - SINGLE_TABLE.md",
     "JPA 설계/알림/6. 🔺 상속X 단일 엔티티O - 알림 하나의 테이블로.md",
     "도메인 설계/경계를 나누는 기준을 정하라.md",
-    "도메인 설계/은총알은 없다.md",
-    "도메인 설계/분리 - 외부 세계와 단절.md",
-    "도메인 설계/완벽한 설계.md",
-    "도메인 설계/비지니스 도메인.md",
-    "도메인 설계/클래스나 함수의 이름을 짓기가 어렵다.md",
     "도메인 설계",
-    "JPA 설계/알림",
-    "JPA 설계",
-    "API"
+    "JPA 설계/알림"
   ]
 }
