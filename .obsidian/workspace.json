@@ -55,16 +55,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redis/Elasticsearch.md",
+                "file": "API/날씨/0. 사용 api.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Elasticsearch"
+              "title": "0. 사용 api"
+            }
+          },
+          {
+            "id": "4bf68c5e66970ee8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "이슈생성.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "이슈생성"
+            }
+          },
+          {
+            "id": "b3608d4586cf4340",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "이슈생성.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "이슈생성"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -212,16 +240,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7e0267eaa16bfec0",
+  "active": "b3608d4586cf4340",
   "lastOpenFiles": [
-    "Redis/0. Redis.md",
-    "Redis/Elasticsearch.md",
+    "미션 출력 순서.md",
+    "JPA 설계/알림/5. 🔺 상속 관계 매핑 - JOINED.md",
+    "JPA 설계/알림/4. 🔺 상속 관계 매핑 - SINGLE_TABLE.md",
+    "JPA 설계/알림/6. 🔺 상속X 단일 엔티티O - 알림 하나의 테이블로.md",
+    "이슈생성.md",
+    "API/날씨/4. 자외선 정보.md",
+    "API/날씨/3. 미세먼지 정보.md",
+    "API/날씨/2. 기상청 날씨 정보.md",
+    "API/날씨/api 에 따른 요구 위치 데이터.md",
+    "API/날씨/0. 사용 api.md",
+    "API/날씨/10. 시간 및 위치  기준점.md",
+    "API/날씨/기상 api 프론트엔드 vs 백엔드 구현 논의.md",
     "API/날씨/로컬캐시와 서버캐시.md",
-    "API/날씨/서버 캐시로 nx,ny에 따른 기상 결과 조회.md",
+    "API/날씨/무제.md",
+    "API/날씨/Redis 활용.md",
     "API/날씨/1. 방법.md",
-    "API/날씨/getVilageFcst(단기예보) 제공 주요 항목.md",
-    "Redis",
     "API/OpenFeign/0. OpenFeign.md",
+    "🎳 트러블슈팅",
+    "API/날씨/getVilageFcst(단기예보) 제공 주요 항목.md",
+    "API/날씨/서버 캐시로 nx,ny에 따른 기상 결과 조회.md",
+    "API/날씨/조회 종류.md",
+    "Redis/Elasticsearch.md",
+    "Redis/0. Redis.md",
+    "Development Culture/Code Convention/Java.md",
+    "미팅/2025-06-08.md",
+    "미팅/2025-05-12.md",
+    "카드 백업/날짜 백업- 카드 중심에서 페크리스트 중심으로.md",
+    "Redis",
     "Diagram/Architecture Diagram/infra.drawio.png",
     "API/OpenFeign",
     "Diagram/Architecture Diagram/CICD.drawio.png",
@@ -230,30 +278,10 @@
     "Diagram/Sequence Diagram/Login API process.drawio.png",
     "Diagram/Architecture Diagram",
     "Diagram/Sequence Diagram/Kakao login process.drawio.png",
-    "API/날씨/참고자료.md",
     "Diagram/Sequence Diagram",
-    "API/날씨/0. 사용 api.md",
     "API/날씨",
     "Diagram",
-    "무제",
-    "API/날씨/기상 api 프론트엔드 vs 백엔드 구현 논의.md",
-    "카드 백업/날짜 백업.md",
-    "카드 백업/날짜 백업- 카드 중심에서 페크리스트 중심으로.md",
     "카드 백업",
-    "카드 백업/Card 유니크 제약 조건.md",
-    "JPA 설계/알림/backupDate, useDate.md",
-    "JPA 설계/알림/나가기전에게 알림이란.md",
-    "JPA 설계/알림/알림의 종류.md",
-    "JPA 설계/알림/Boolaen타입으로의 저장.md",
-    "JPA 설계/알림/Card-Alarm의 구현에서 고려해야할 점.md",
-    "JPA 설계/알림/SINGLE_TABLE 상속 매핑과 단일 엔티티 설계의 다른점은 뭘까.md",
-    "JPA 설계/알림/5. 🔺 상속 관계 매핑 - JOINED.md",
-    "미팅/2025-06-08.md",
-    "미팅/2025-05-12.md",
-    "미팅/무제.md",
-    "JPA 설계/알림/4. 🔺 상속 관계 매핑 - SINGLE_TABLE.md",
-    "JPA 설계/알림/6. 🔺 상속X 단일 엔티티O - 알림 하나의 테이블로.md",
-    "도메인 설계/경계를 나누는 기준을 정하라.md",
     "도메인 설계",
     "JPA 설계/알림"
   ]
