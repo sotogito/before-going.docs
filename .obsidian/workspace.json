@@ -118,9 +118,37 @@
               "icon": "lucide-file",
               "title": "Redis"
             }
+          },
+          {
+            "id": "1ec831ff3aff4dbc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "무제.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "무제"
+            }
+          },
+          {
+            "id": "e3d301e12d66bea9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "시나리오-미션CRUD/조회 종류.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "조회 종류"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -268,14 +296,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0745802002394d55",
+  "active": "e3d301e12d66bea9",
   "lastOpenFiles": [
-    "모놀리식,  MSA.md",
     "Redis.md",
+    "Development Culture/Git$Github Convention/커멧 메시지 이모지.md",
+    "Development Culture/Code Convention/Java.md",
     "시나리오-미션CRUD/조회 종류.md",
+    "무제.md",
+    "미션 출력 순서.md",
+    "새롭게 추가한 부분.md",
+    "모놀리식,  MSA.md",
     "이슈생성.md",
     "시나리오-미션CRUD",
-    "미션 출력 순서.md",
     "JPA 설계/알림/5. 🔺 상속 관계 매핑 - JOINED.md",
     "JPA 설계/알림/4. 🔺 상속 관계 매핑 - SINGLE_TABLE.md",
     "JPA 설계/알림/6. 🔺 상속X 단일 엔티티O - 알림 하나의 테이블로.md",
@@ -294,10 +326,6 @@
     "🎳 트러블슈팅",
     "API/날씨/getVilageFcst(단기예보) 제공 주요 항목.md",
     "API/날씨/서버 캐시로 nx,ny에 따른 기상 결과 조회.md",
-    "API/날씨/조회 종류.md",
-    "Redis/Elasticsearch.md",
-    "Redis/0. Redis.md",
-    "Development Culture/Code Convention/Java.md",
     "Redis",
     "Diagram/Architecture Diagram/infra.drawio.png",
     "API/OpenFeign",
