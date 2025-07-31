@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "이슈생성.md",
+                "file": "시나리오-미션CRUD/조회 종류.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "이슈생성"
+              "title": "조회 종류"
             }
           }
         ],
@@ -242,11 +242,13 @@
   },
   "active": "b3608d4586cf4340",
   "lastOpenFiles": [
+    "이슈생성.md",
+    "시나리오-미션CRUD/조회 종류.md",
+    "시나리오-미션CRUD",
     "미션 출력 순서.md",
     "JPA 설계/알림/5. 🔺 상속 관계 매핑 - JOINED.md",
     "JPA 설계/알림/4. 🔺 상속 관계 매핑 - SINGLE_TABLE.md",
     "JPA 설계/알림/6. 🔺 상속X 단일 엔티티O - 알림 하나의 테이블로.md",
-    "이슈생성.md",
     "API/날씨/4. 자외선 정보.md",
     "API/날씨/3. 미세먼지 정보.md",
     "API/날씨/2. 기상청 날씨 정보.md",
@@ -268,7 +270,6 @@
     "Development Culture/Code Convention/Java.md",
     "미팅/2025-06-08.md",
     "미팅/2025-05-12.md",
-    "카드 백업/날짜 백업- 카드 중심에서 페크리스트 중심으로.md",
     "Redis",
     "Diagram/Architecture Diagram/infra.drawio.png",
     "API/OpenFeign",
@@ -282,7 +283,6 @@
     "API/날씨",
     "Diagram",
     "카드 백업",
-    "도메인 설계",
-    "JPA 설계/알림"
+    "도메인 설계"
   ]
 }
