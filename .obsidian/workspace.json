@@ -139,12 +139,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "시나리오-미션CRUD/조회 종류.md",
+                "file": "시나리오-미션CRUD/업데이트.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "조회 종류"
+              "title": "업데이트"
             }
           }
         ],
@@ -180,7 +180,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "조회",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -298,10 +298,12 @@
   },
   "active": "e3d301e12d66bea9",
   "lastOpenFiles": [
+    "시나리오-미션CRUD/추가.md",
+    "시나리오-미션CRUD/업데이트.md",
+    "시나리오-미션CRUD/조회 종류.md",
     "Redis.md",
     "Development Culture/Git$Github Convention/커멧 메시지 이모지.md",
     "Development Culture/Code Convention/Java.md",
-    "시나리오-미션CRUD/조회 종류.md",
     "무제.md",
     "미션 출력 순서.md",
     "새롭게 추가한 부분.md",
@@ -324,8 +326,6 @@
     "API/날씨/1. 방법.md",
     "API/OpenFeign/0. OpenFeign.md",
     "🎳 트러블슈팅",
-    "API/날씨/getVilageFcst(단기예보) 제공 주요 항목.md",
-    "API/날씨/서버 캐시로 nx,ny에 따른 기상 결과 조회.md",
     "Redis",
     "Diagram/Architecture Diagram/infra.drawio.png",
     "API/OpenFeign",
