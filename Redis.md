@@ -7,3 +7,8 @@ redis-server
 ```
 redis-cli ping
 ```
+
+-RDB 파일 삭제
+```
+rm dump.rdb
+```

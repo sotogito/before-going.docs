@@ -167,30 +167,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "무제.md",
+                "file": "Redis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "무제"
-            }
-          },
-          {
-            "id": "a0190d96f18e5dd2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "빌드.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "빌드"
+              "title": "Redis"
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -349,46 +335,46 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a0190d96f18e5dd2",
+  "active": "52c0b9da4f47f86e",
   "lastOpenFiles": [
-    "무제.md",
-    "빌드.md",
-    "Development Culture/Git$Github Convention/커멧 메시지 이모지.md",
-    "Development Culture/Git$Github Convention/뭐/Github CLI.md",
-    "Development Culture/Code Convention/Java.md",
-    "시나리오-미션CRUD/업데이트.md",
+    "시나리오-미션CRUD/남은 CRUD.md",
     "시나리오-미션CRUD/삭제.md",
-    "Redis.md",
-    "이슈생성.md",
-    "🔮 TODO.md",
-    "시나리오-미션CRUD/추가.md",
-    "시나리오-미션CRUD/조회 종류.md",
     "알림/알림 엔티티 @ElementCollection vs @OneToMany.md",
     "알림/알림 울릴데이터 찾아오기.md",
-    "알림/TaskScheduler.md",
-    "알림",
-    "JPA 설계/무제.md",
-    "JPA 설계/알림/5. 🔺 상속 관계 매핑 - JOINED.md",
-    "미션 출력 순서.md",
-    "새롭게 추가한 부분.md",
-    "모놀리식,  MSA.md",
-    "시나리오-미션CRUD",
-    "JPA 설계/알림/4. 🔺 상속 관계 매핑 - SINGLE_TABLE.md",
+    "시나리오-미션CRUD/업데이트.md",
+    "Development Culture/Development Environment/+/Swagger.md",
+    "Development Culture/Development Environment/+/workflow 파일 분석.md",
+    "Development Culture/Development Environment/+/테스트 툴.md",
+    "Development Culture/Development Environment/+/CI CD 파이프라인.md",
+    "Development Culture/Development Environment/+/코드 스타일은 어떻게 적용하는데.md",
+    "Development Culture/Development Environment/+/코드 정적 분석 도구.md",
+    "Development Culture/+/build.gradle.md",
+    "Diagram/Sequence Diagram/Login API process.drawio.png",
+    "Diagram/Sequence Diagram/Kakao login process.drawio.png",
+    "Diagram/Architecture Diagram/infra.drawio.png",
+    "Diagram/Architecture Diagram/CICD.drawio.png",
+    "JPA 설계/알림/1. 카드와 알림의 id(PK)를 갖는 테이블을 따로 생성.md",
+    "JPA 설계/알림/1. 알림을 인테페이스로.md",
+    "JPA 설계/알림/나가기전에게 알림이란.md",
+    "JPA 설계/알림/알림의 종류.md",
+    "JPA 설계/알림/backupDate, useDate.md",
     "JPA 설계/알림/6. 🔺 상속X 단일 엔티티O - 알림 하나의 테이블로.md",
-    "API/날씨/4. 자외선 정보.md",
-    "API/날씨/3. 미세먼지 정보.md",
-    "API/날씨/2. 기상청 날씨 정보.md",
-    "API/날씨/api 에 따른 요구 위치 데이터.md",
+    "JPA 설계/알림/Boolaen타입으로의 저장.md",
+    "JPA 설계/알림/2. 상속 - 카드를 추상 클래스로.md",
+    "JPA 설계/알림/5. 🔺 상속 관계 매핑 - JOINED.md",
+    "JPA 설계/알림/4. 🔺 상속 관계 매핑 - SINGLE_TABLE.md",
+    "JPA 설계/알림/🔺 카드-알림 설계 결정.md",
+    "JPA 설계/알림/Card-Alarm의 구현에서 고려해야할 점.md",
+    "JPA 설계/알림/SINGLE_TABLE 상속 매핑과 단일 엔티티 설계의 다른점은 뭘까.md",
+    "Redis/0. Redis.md",
+    "알림",
+    "시나리오-미션CRUD",
     "🎳 트러블슈팅",
     "Redis",
-    "Diagram/Architecture Diagram/infra.drawio.png",
     "API/OpenFeign",
-    "Diagram/Architecture Diagram/CICD.drawio.png",
     "Diagram/CICD.drawio.png",
     "CICD.drawio.png",
-    "Diagram/Sequence Diagram/Login API process.drawio.png",
     "Diagram/Architecture Diagram",
-    "Diagram/Sequence Diagram/Kakao login process.drawio.png",
     "Diagram/Sequence Diagram",
     "API/날씨",
     "Diagram",
