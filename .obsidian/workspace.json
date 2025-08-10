@@ -181,12 +181,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "시나리오-미션CRUD/남은 CRUD.md",
+                "file": "Development Culture/Git$Github Convention/커멧 메시지 이모지.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "남은 CRUD"
+              "title": "커멧 메시지 이모지"
             }
           }
         ],
@@ -353,9 +353,10 @@
   "lastOpenFiles": [
     "유효검증/유효검증.md",
     "시나리오-미션CRUD/남은 CRUD.md",
-    "시나리오-미션CRUD/삭제.md",
-    "시나리오-미션CRUD/업데이트.md",
     "시나리오-미션CRUD/조회 종류.md",
+    "시나리오-미션CRUD/업데이트.md",
+    "시나리오-미션CRUD/삭제.md",
+    "시나리오-미션CRUD/추가.md",
     "유효검증",
     "Development Culture/Git$Github Convention/커멧 메시지 이모지.md",
     "Redis.md",
@@ -381,7 +382,6 @@
     "JPA 설계/알림/Boolaen타입으로의 저장.md",
     "JPA 설계/알림/2. 상속 - 카드를 추상 클래스로.md",
     "JPA 설계/알림/5. 🔺 상속 관계 매핑 - JOINED.md",
-    "JPA 설계/알림/4. 🔺 상속 관계 매핑 - SINGLE_TABLE.md",
     "알림",
     "시나리오-미션CRUD",
     "🎳 트러블슈팅",
