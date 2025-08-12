@@ -195,12 +195,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "클라이언트/미션의 종류.md",
+                "file": "코드리뷰/v1/시나리오-미션 CRUD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "미션의 종류"
+              "title": "시나리오-미션 CRUD"
             }
           }
         ],
@@ -365,9 +365,9 @@
   },
   "active": "a133b60794cce7b1",
   "lastOpenFiles": [
+    "클라이언트/미션의 종류.md",
     "클라이언트",
     "코드리뷰/v1/시나리오-미션 CRUD.md",
-    "클라이언트/미션의 종류.md",
     "Development Culture/Git$Github Convention/커멧 메시지 이모지.md",
     "🔮 TODO.md",
     "코드리뷰/v1",
@@ -405,7 +405,6 @@
     "API/OpenFeign",
     "Diagram/CICD.drawio.png",
     "CICD.drawio.png",
-    "Diagram/Architecture Diagram",
-    "Diagram/Sequence Diagram"
+    "Diagram/Architecture Diagram"
   ]
 }
