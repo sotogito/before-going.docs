@@ -167,12 +167,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/날씨/4시간마다 갱신.md",
+                "file": "API/날씨/리팩토링/TodyaWeather하고 Future 나누기.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4시간마다 갱신"
+              "title": "TodyaWeather하고 Future 나누기"
             }
           },
           {
@@ -365,13 +365,20 @@
   },
   "active": "a133b60794cce7b1",
   "lastOpenFiles": [
-    "API/날씨/10. 시간 및 위치  기준점.md",
+    "API/날씨/리팩토링/날씨.md",
+    "API/날씨/리팩토링/TodyaWeather하고 Future 나누기.md",
+    "API/날씨/리팩토링/Extractor.md",
+    "API/날씨/4시간마다 갱신.md",
+    "API/날씨/리팩토링",
+    "코드리뷰/v1/시나리오-미션 CRUD 2.md",
+    "코드리뷰/v1/코드리뷰 답변 2.md",
+    "코드리뷰/v1/리팩토링 사항 2.md",
+    "API/날씨/4. 자외선 정보.md",
+    "API/날씨/3. 미세먼지 정보.md",
+    "API/날씨/2. 기상청 날씨 정보.md",
     "API/날씨/0. 사용 api.md",
     "API/날씨/1. 방법.md",
-    "API/날씨/4. 자외선 정보.md",
-    "API/날씨/2. 기상청 날씨 정보.md",
-    "API/날씨/3. 미세먼지 정보.md",
-    "API/날씨/4시간마다 갱신.md",
+    "API/날씨/10. 시간 및 위치  기준점.md",
     "코드리뷰/v1/리팩토링 사항.md",
     "Development Culture/Code Convention/Java 2.md",
     "코드리뷰/v1/코드리뷰 답변.md",
@@ -388,13 +395,7 @@
     "코드리뷰",
     "유효검증/유효검증.md",
     "시나리오-미션CRUD/남은 CRUD.md",
-    "시나리오-미션CRUD/조회 종류.md",
-    "시나리오-미션CRUD/업데이트.md",
-    "시나리오-미션CRUD/삭제.md",
-    "시나리오-미션CRUD/추가.md",
     "유효검증",
-    "알림/알림 엔티티 @ElementCollection vs @OneToMany.md",
-    "알림/알림 울릴데이터 찾아오기.md",
     "Diagram/Sequence Diagram/Login API process.drawio.png",
     "Diagram/Sequence Diagram/Kakao login process.drawio.png",
     "Diagram/Architecture Diagram/infra.drawio.png",
@@ -405,7 +406,6 @@
     "Redis",
     "API/OpenFeign",
     "Diagram/CICD.drawio.png",
-    "CICD.drawio.png",
-    "Diagram/Architecture Diagram"
+    "CICD.drawio.png"
   ]
 }
