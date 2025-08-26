@@ -153,21 +153,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "시나리오-미션CRUD/업데이트.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "업데이트"
-            }
-          },
-          {
-            "id": "a133b60794cce7b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "날씨/리팩토링/1.md",
+                "file": "알림/리팩토링/1.md",
                 "mode": "source",
                 "source": false
               },
@@ -204,7 +190,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -363,36 +349,39 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a133b60794cce7b1",
+  "active": "fd3f57a5b3578de6",
   "lastOpenFiles": [
-    "코드리뷰/v1/시나리오-미션 CRUD 2.md",
-    "코드리뷰/v1/코드리뷰 답변 2.md",
-    "코드리뷰/v1/리팩토링 사항 2.md",
-    "날씨/2. 기상청 날씨 정보.md",
-    "날씨/1. 방법.md",
-    "날씨/0. 사용 api.md",
-    "날씨/리팩토링/1.md",
-    "Redis.md",
-    "날씨/4. 자외선 정보.md",
-    "날씨/3. 미세먼지 정보.md",
-    "카드 백업/날짜 백업.md",
-    "카드 백업/날짜 백업- 카드 중심에서 페크리스트 중심으로.md",
+    "알림/트리거.md",
+    "알림/리팩토링/1.md",
+    "알림/리팩토링",
+    "알림/프롬프트.md",
+    "알림/Etag.md",
+    "알림/TaskScheduler.md",
+    "알림/Lazy 캐시 vs Write-through 캐시.md",
+    "시나리오-미션CRUD/업데이트.md",
     "알림/알림로직.md",
+    "시나리오-미션CRUD/리팩토링/1.md",
+    "Development Culture/Development Environment/+/코드 정적 분석 도구.md",
+    "Development Culture/Development Environment/+/Swagger.md",
+    "Development Culture/Development Environment/+/workflow 파일 분석.md",
+    "Development Culture/Development Environment/+/테스트 툴.md",
+    "Development Culture/Development Environment/+/CI CD 파이프라인.md",
+    "Development Culture/Development Environment/+/코드 스타일은 어떻게 적용하는데.md",
+    "Development Culture/Development Environment/+/코드 스타일은 어떻게 적용하는데 2.md",
+    "Development Culture/Development Environment/+/테스트 툴 2.md",
+    "Development Culture/Development Environment/+/CI CD 파이프라인 2.md",
+    "Development Culture/Development Environment/+/코드 정적 분석 도구 2.md",
+    "Development Culture/Development Environment/+/Swagger 2.md",
+    "Development Culture/Development Environment/+/workflow 파일 분석 2.md",
+    "클라이언트/미션의 종류.md",
+    "클라이언트/미션의 종류 2.md",
+    "알림/알림 엔티티 @ElementCollection vs @OneToMany.md",
+    "알림/알림 울릴데이터 찾아오기.md",
+    "날씨/리팩토링/1.md",
+    "시나리오-미션CRUD/리팩토링",
+    "날씨/리팩토링/무제",
     "무제",
-    "날씨/리팩토링/TodyaWeather하고 Future 나누기.md",
-    "날씨/리팩토링/Extractor.md",
-    "날씨/리팩토링/날씨.md",
-    "날씨/리팩토링/기본 위도 경도.md",
-    "Development Culture/Git$Github Convention/커멧 메시지 이모지.md",
-    "날씨/4시간마다 갱신.md",
     "날씨/리팩토링",
-    "날씨/10. 시간 및 위치  기준점.md",
-    "코드리뷰/v1/리팩토링 사항.md",
-    "Development Culture/Code Convention/Java 2.md",
-    "코드리뷰/v1/코드리뷰 답변.md",
-    "코드리뷰/v1/시나리오-미션 CRUD.md",
-    "코드리뷰/v1/ㅊㅓㅁㅅㅏㄱㅈㅗㅁ.md",
-    "코드리뷰/v1/코드리뷰 최종 정리.md",
     "클라이언트",
     "코드리뷰/v1",
     "코드리뷰",
@@ -402,9 +391,6 @@
     "Diagram/Architecture Diagram/infra.drawio.png",
     "Diagram/Architecture Diagram/CICD.drawio.png",
     "알림",
-    "시나리오-미션CRUD",
-    "🎳 트러블슈팅",
-    "Redis",
     "Diagram/CICD.drawio.png",
     "CICD.drawio.png"
   ]
