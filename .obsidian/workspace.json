@@ -139,12 +139,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "날씨/리팩토링/기상청오류.md",
+                "file": "날씨/PR.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "기상청오류"
+              "title": "PR"
             }
           },
           {
@@ -177,26 +177,6 @@
           }
         ],
         "currentTab": 9
-      },
-      {
-        "id": "2efe7101621c83b9",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "fd3f57a5b3578de6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "알림/리팩토링/2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -357,9 +337,10 @@
   },
   "active": "e3d301e12d66bea9",
   "lastOpenFiles": [
-    "날씨/리팩토링/2508028.md",
-    "날씨/리팩토링/기상청오류.md",
     "날씨/0. 사용 api.md",
+    "날씨/PR.md",
+    "날씨/리팩토링/기상청오류.md",
+    "날씨/리팩토링/2508028.md",
     "날씨/리팩토링/기본 위도 경도.md",
     "Redis.md",
     "알림/리팩토링/2.md",
@@ -384,7 +365,6 @@
     "Development Culture/Development Environment/+/코드 스타일은 어떻게 적용하는데.md",
     "Development Culture/Development Environment/+/코드 스타일은 어떻게 적용하는데 2.md",
     "Development Culture/Development Environment/+/테스트 툴 2.md",
-    "Development Culture/Development Environment/+/CI CD 파이프라인 2.md",
     "시나리오-미션CRUD/리팩토링",
     "날씨/리팩토링/무제",
     "무제",
