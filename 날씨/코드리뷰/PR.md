@@ -180,3 +180,11 @@ Open-Meteo KMA 역시 기상청 데이터를 기반으로 하지만, 가공된 �
 다만 Open-Meteo에서도 간혹 오류가 발생하는 경우는 있습니다.
 
 Fallback 발생 여부를 모두 로깅해두었고, 운영 중 Fallback이 과도하게 늘어나면 API를 변경해야할 거 같아요.
+
+
+1) "12"
+2) "{\"weather\":\"SHOWER\",\"findDust\":\"NORMAL\",\"uv\":\"LOW\"}"
+3) "13"
+4) "{\"weather\":\"SUNNY\",\"findDust\":\"NORMAL\",\"uv\":\"LOW\"}"
+5) "14"
+6) "{\"weather\":\"SUNNY\",\"findDust\":\"NORMAL\",\"uv\":\"LOW\"}"
