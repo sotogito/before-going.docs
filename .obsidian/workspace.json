@@ -139,12 +139,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "날씨/코드리뷰/클라이언트.md",
+                "file": "카드 백업/🌪️ 고려할 사항.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "클라이언트"
+              "title": "🌪️ 고려할 사항"
             }
           },
           {
@@ -337,8 +337,15 @@
   },
   "active": "e3d301e12d66bea9",
   "lastOpenFiles": [
-    "알림/코드리뷰/클라이언트 코드 설명.md",
+    "카드 백업/카드 백업 설계 기획.md",
+    "카드 백업/🌪️ 고려할 사항.md",
+    "카드 백업/날짜 백업- 카드 중심에서 페크리스트 중심으로.md",
+    "카드 백업/날짜 백업.md",
+    "카드 백업/Card 유니크 제약 조건.md",
     "날씨/코드리뷰/클라이언트.md",
+    "알림/코드 PR 설명.md",
+    "날씨/PR.md",
+    "알림/코드리뷰/클라이언트 코드 설명.md",
     "알림/리팩토링/2.md",
     "알림/코드리뷰/코드 PR 설명.md",
     "날씨/코드리뷰",
@@ -360,13 +367,6 @@
     "알림/Lazy 캐시 vs Write-through 캐시.md",
     "시나리오-미션CRUD/업데이트.md",
     "알림/알림로직.md",
-    "시나리오-미션CRUD/리팩토링/1.md",
-    "Development Culture/Development Environment/+/코드 정적 분석 도구.md",
-    "Development Culture/Development Environment/+/Swagger.md",
-    "Development Culture/Development Environment/+/workflow 파일 분석.md",
-    "Development Culture/Development Environment/+/테스트 툴.md",
-    "Development Culture/Development Environment/+/CI CD 파이프라인.md",
-    "Development Culture/Development Environment/+/코드 스타일은 어떻게 적용하는데.md",
     "시나리오-미션CRUD/리팩토링",
     "날씨/리팩토링/무제",
     "무제",
