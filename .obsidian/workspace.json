@@ -139,12 +139,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "카드 백업/코드리뷰/PR.md",
+                "file": "시나리오-미션CRUD/리팩토링/20250901.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PR"
+              "title": "20250901"
             }
           },
           {
@@ -337,13 +337,18 @@
   },
   "active": "e3d301e12d66bea9",
   "lastOpenFiles": [
+    "알림 비동의 사용자 처리.md",
+    "시나리오-미션CRUD/리팩토링/20250901.md",
+    "시나리오-미션CRUD/코드리뷰/클라이언트.md",
+    "시나리오-미션CRUD/리팩토링/1.md",
+    "시나리오-미션CRUD/코드리뷰",
+    "카드 백업/코드리뷰/PR.md",
     "카드 백업/🌪️ 고려할 사항.md",
     "카드 백업/Card 유니크 제약 조건.md",
     "카드 백업/local db 변경 테스트.md",
     "카드 백업/날짜 백업.md",
     "카드 백업/날짜 백업- 카드 중심에서 페크리스트 중심으로.md",
     "카드 백업/카드 백업 설계 기획.md",
-    "카드 백업/코드리뷰/PR.md",
     "카드 백업/코드리뷰",
     "빌드.md",
     "모놀리식,  MSA.md",
@@ -362,16 +367,12 @@
     "날씨/리팩토링/2508028.md",
     "날씨/리팩토링/기본 위도 경도.md",
     "알림/리팩토링/1.md",
-    "시나리오-미션CRUD/추가.md",
     "알림/리팩토링/2",
-    "알림/트리거.md",
     "알림/리팩토링",
-    "알림/프롬프트.md",
     "시나리오-미션CRUD/리팩토링",
     "날씨/리팩토링/무제",
     "무제",
     "날씨/리팩토링",
-    "클라이언트",
     "Diagram/Sequence Diagram/Login API process.drawio.png",
     "Diagram/Sequence Diagram/Kakao login process.drawio.png",
     "Diagram/Architecture Diagram/infra.drawio.png",
