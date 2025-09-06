@@ -167,12 +167,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "미래 체크상태 업데이트/코드리뷰/PR.md",
+                "file": "🔴 API docs interface/주의.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PR"
+              "title": "주의"
             }
           },
           {
@@ -366,8 +366,15 @@
   },
   "active": "c1d0d2eedef46036",
   "lastOpenFiles": [
-    "미래 체크상태 업데이트/설계.md",
+    "🔴 API docs interface/interface  docs.md",
+    "🔴 API docs interface/주의.md",
+    "🔵 CRUD 캐시/설계.md",
+    "🔴 API docs interface",
+    "🔵 모니터링",
     "미래 체크상태 업데이트/코드리뷰/PR.md",
+    "무제",
+    "🔵 CRUD 캐시",
+    "미래 체크상태 업데이트/설계.md",
     "미래 체크상태 업데이트/코드리뷰",
     "🤖 리팩토링 고려사항.md",
     "카드 백업/코드리뷰/pr1.md",
@@ -394,14 +401,7 @@
     "카드 백업/카드 백업 설계 기획.md",
     "카드 백업/코드리뷰",
     "빌드.md",
-    "날씨/코드리뷰/클라이언트.md",
-    "알림/코드 PR 설명.md",
-    "날씨/PR.md",
     "날씨/코드리뷰",
-    "알림/코드리뷰",
-    "알림/리팩토링/2",
-    "알림/리팩토링",
-    "시나리오-미션CRUD/리팩토링",
     "Diagram/Sequence Diagram/Login API process.drawio.png",
     "Diagram/Sequence Diagram/Kakao login process.drawio.png",
     "Diagram/Architecture Diagram/infra.drawio.png",
