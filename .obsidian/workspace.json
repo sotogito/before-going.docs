@@ -167,12 +167,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🔴 API docs interface/주의.md",
+                "file": "시스템 공지 알림/백엔드에서 처리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "주의"
+              "title": "백엔드에서 처리"
             }
           },
           {
@@ -364,10 +364,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c1d0d2eedef46036",
+  "active": "1423859135b29cd0",
   "lastOpenFiles": [
-    "🔴 API docs interface/interface  docs.md",
+    "Redis.md",
+    "시스템 공지 알림/백엔드에서 처리.md",
+    "시스템 공지 알림",
+    "빌드.md",
+    "미션 출력 순서.md",
+    "새롭게 추가한 부분.md",
+    "이슈생성.md",
+    "🤖 리팩토링 고려사항.md",
     "🔴 API docs interface/주의.md",
+    "🔴 API docs interface/interface  docs.md",
     "🔵 CRUD 캐시/설계.md",
     "🔴 API docs interface",
     "🔵 모니터링",
@@ -376,15 +384,12 @@
     "🔵 CRUD 캐시",
     "미래 체크상태 업데이트/설계.md",
     "미래 체크상태 업데이트/코드리뷰",
-    "🤖 리팩토링 고려사항.md",
     "카드 백업/코드리뷰/pr1.md",
     "미래 체크상태 업데이트/스캐줄러 reset 변경 쿼리.md",
     "미래 체크상태 업데이트",
-    "Redis.md",
     "미래 BASIC 미션 체크상태 업데이트/설계.md",
     "미래 BASIC 미션 체크상태 업데이트/스캐줄러 reset 변경 쿼리.md",
     "카드 백업/local db 변경 테스트.md",
-    "새롭게 추가한 부분.md",
     "모놀리식,  MSA.md",
     "무제 1.md",
     "미래 BASIC 미션 체크상태 업데이트",
@@ -396,12 +401,7 @@
     "카드 백업/코드리뷰/PR.md",
     "카드 백업/🌪️ 고려할 사항.md",
     "카드 백업/Card 유니크 제약 조건.md",
-    "카드 백업/날짜 백업.md",
-    "카드 백업/날짜 백업- 카드 중심에서 페크리스트 중심으로.md",
-    "카드 백업/카드 백업 설계 기획.md",
     "카드 백업/코드리뷰",
-    "빌드.md",
-    "날씨/코드리뷰",
     "Diagram/Sequence Diagram/Login API process.drawio.png",
     "Diagram/Sequence Diagram/Kakao login process.drawio.png",
     "Diagram/Architecture Diagram/infra.drawio.png",
