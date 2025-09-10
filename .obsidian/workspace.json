@@ -167,12 +167,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "시스템 공지 알림/백엔드에서 처리.md",
+                "file": "🤖 리팩토링 고려사항.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "백엔드에서 처리"
+              "title": "🤖 리팩토링 고려사항"
             }
           },
           {
@@ -364,10 +364,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1423859135b29cd0",
+  "active": "c1d0d2eedef46036",
   "lastOpenFiles": [
-    "Redis.md",
     "시스템 공지 알림/백엔드에서 처리.md",
+    "Redis.md",
     "시스템 공지 알림",
     "빌드.md",
     "미션 출력 순서.md",
