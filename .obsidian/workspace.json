@@ -153,26 +153,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "미래 BASIC 미션 체크상태 업데이트/설계.md",
+                "file": "🔵 CRUD 캐시/시나리오 캐시 무효화.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "설계"
-            }
-          },
-          {
-            "id": "c1d0d2eedef46036",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🤖 리팩토링 고려사항.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "🤖 리팩토링 고려사항"
+              "title": "시나리오 캐시 무효화"
             }
           },
           {
@@ -204,7 +190,27 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 10
+      },
+      {
+        "id": "1aae4f9498a54810",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c1d0d2eedef46036",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🔵 CRUD 캐시/미션 캐시 무효화.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "미션 캐시 무효화"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -261,7 +267,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "c598ac2e66194676",
@@ -366,6 +372,13 @@
   },
   "active": "c1d0d2eedef46036",
   "lastOpenFiles": [
+    "🔵 CRUD 캐시/시나리오 캐시 무효화.md",
+    "🔵 CRUD 캐시/미션 캐시 무효화.md",
+    "🤖 리팩토링 고려사항.md",
+    "미래 BASIC 미션 체크상태 업데이트/설계.md",
+    "알림/코드리뷰/코드 PR 설명.md",
+    "알림/코드리뷰/클라이언트 코드 설명.md",
+    "🔵 CRUD 캐시/key vs scan.md",
     "시스템 공지 알림/백엔드에서 처리.md",
     "Redis.md",
     "시스템 공지 알림",
@@ -373,7 +386,6 @@
     "미션 출력 순서.md",
     "새롭게 추가한 부분.md",
     "이슈생성.md",
-    "🤖 리팩토링 고려사항.md",
     "🔴 API docs interface/주의.md",
     "🔴 API docs interface/interface  docs.md",
     "🔵 CRUD 캐시/설계.md",
@@ -387,7 +399,6 @@
     "카드 백업/코드리뷰/pr1.md",
     "미래 체크상태 업데이트/스캐줄러 reset 변경 쿼리.md",
     "미래 체크상태 업데이트",
-    "미래 BASIC 미션 체크상태 업데이트/설계.md",
     "미래 BASIC 미션 체크상태 업데이트/스캐줄러 reset 변경 쿼리.md",
     "카드 백업/local db 변경 테스트.md",
     "모놀리식,  MSA.md",
@@ -395,12 +406,7 @@
     "미래 BASIC 미션 체크상태 업데이트",
     "알림 비동의 사용자 처리.md",
     "시나리오-미션CRUD/리팩토링/20250901.md",
-    "시나리오-미션CRUD/코드리뷰/클라이언트.md",
-    "시나리오-미션CRUD/리팩토링/1.md",
     "시나리오-미션CRUD/코드리뷰",
-    "카드 백업/코드리뷰/PR.md",
-    "카드 백업/🌪️ 고려할 사항.md",
-    "카드 백업/Card 유니크 제약 조건.md",
     "카드 백업/코드리뷰",
     "Diagram/Sequence Diagram/Login API process.drawio.png",
     "Diagram/Sequence Diagram/Kakao login process.drawio.png",
